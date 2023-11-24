@@ -178,10 +178,10 @@ const helpsHeader = document.querySelector('.helps-with__header');
 
 if (window.matchMedia('(max-width: 1199px)').matches) {
 
-  helpsHeader.textContent = 'какие проблемы решает сервис';
+  helpsHeader.textContent = 'Issues Resolved by the Service';
 
 } else {
-  helpsHeader.textContent = 'проблемы, которые решает сервис';
+  helpsHeader.textContent = 'Issues Resolved by the Service';
 }
 
 
