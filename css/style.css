@@ -772,6 +772,7 @@ input[type=search] {
     height: 90px;
     border-radius: 100px/60px;
     position: relative;
+    font-size: 15.5px;
 }
 
 @media (max-width: 1300px) {
@@ -980,6 +981,7 @@ input[type=search] {
 }
 
 .picture-container::before {
+    display: none;
     content: "";
     position: absolute;
     font-size: 20px;
